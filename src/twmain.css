@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-country {
+  @apply max-w-containerCountry w-full mx-auto px-5;
+}
+
+.site-input {
+background-position: 27px center;
+}
+
+@media only screen and (min-width: 565px) {
+  .site-input {
+  margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 585px) {
+  .site-input {
+  margin-bottom: 0;
+  }
+}
